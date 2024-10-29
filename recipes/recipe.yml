@@ -27,7 +27,7 @@ modules:
       - xfdashboard-themes
       - xarchiver
       - mousepad
-      - libmousepad
+      - libmousepad0
       - firefox
       - firefox-langpacks
 

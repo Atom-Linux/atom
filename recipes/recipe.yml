@@ -23,6 +23,7 @@ modules:
       - plank-docklets
       - xed
       - engrampa
+      - elementary-xfce-icon-theme
     remove:
       - xfdashboard
       - xfdashboard-themes

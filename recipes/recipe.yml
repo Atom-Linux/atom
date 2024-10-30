@@ -24,6 +24,7 @@ modules:
       - xed
       - engrampa
       - elementary-xfce-icon-theme
+      - nemo
     remove:
       - xfdashboard
       - xfdashboard-themes
@@ -32,6 +33,7 @@ modules:
       - libmousepad0
       - firefox
       - firefox-langpacks
+      - caja
 
   - type: script
     snippets:

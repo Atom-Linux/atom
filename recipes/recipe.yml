@@ -33,7 +33,7 @@ modules:
 
   - type: script
     snippets:
-      - "sed -i 's|Pantheon|XFCE' /etc/xdg/autostart/plank.desktop"
+      - "sed -i 's|Pantheon|XFCE|' /etc/xdg/autostart/plank.desktop"
 
   - type: bling
     install:

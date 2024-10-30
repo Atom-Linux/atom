@@ -31,6 +31,10 @@ modules:
       - firefox
       - firefox-langpacks
 
+  - type: script
+    snippets:
+      - "sed -i 's|Pantheon|XFCE' /etc/xdg/autostart/plank.desktop"
+
   - type: bling
     install:
       - ublue-update

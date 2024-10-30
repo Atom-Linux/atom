@@ -46,6 +46,14 @@ modules:
     auto-update: false # We use ublue-update for automatic updates
     auto-upgrade: false
 
+  - type: rpm-ostree
+    repos:
+      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    install:
+    # - nothing
+    remove:
+      - caja
+
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
@@ -65,11 +73,5 @@ modules:
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
- - type: rpm-ostree
-    repos:
-      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-    install:
-    # - nothing
-    remove:
-      - caja
+
 

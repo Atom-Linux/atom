@@ -23,7 +23,6 @@ modules:
       - plank-docklets
       - xed
       - engrampa
-      - ark
       - elementary-xfce-icon-theme
       - nemo
     remove:
@@ -34,6 +33,7 @@ modules:
       - libmousepad0
       - firefox
       - firefox-langpacks
+      - thunar
 
   - type: script
     snippets:

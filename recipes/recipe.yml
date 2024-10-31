@@ -33,7 +33,6 @@ modules:
       - libmousepad0
       - firefox
       - firefox-langpacks
-      - thunar
 
   - type: script
     snippets:

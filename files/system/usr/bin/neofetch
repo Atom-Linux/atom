@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 echo -e "\e[1;33mATTENTION!\e[0m"
-echo -e "\e[31mNeofetch\e[0m is no longer maintained, please from now on use \e[1;33mFastfetch\e[0m which can be ran with the following command: \e[1;33mfastfetch\e[0m"
+echo -e "\e[31mNeofetch\e[0m is no longer maintained. Therefore, please use \e[1;33mFastfetch\e[0m from now on, which can be executed with the following command: \e[1;33mfastfetch\e[0m"
 echo -e "The output below was generated using \e[1;33mfastfetch\e[0m"
 fastfetch
 echo -e "The output above was generated using \e[1;33mfastfetch\e[0m"
-echo -e "\e[31mNeofetch\e[0m is no longer maintained, please from now on use \e[1;33mFastfetch\e[0m which can be ran with the following command: \e[1;33mfastfetch\e[0m"
+echo -e "\e[31mNeofetch\e[0m is no longer maintained. Therefore, please use \e[1;33mFastfetch\e[0m from now on, which can be executed with the following command: \e[1;33mfastfetch\e[0m"

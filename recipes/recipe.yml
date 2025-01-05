@@ -22,9 +22,8 @@ modules:
       - plank
       - plank-docklets
       - xed
-      - engrampa
       - elementary-xfce-icon-theme
-      - nemo
+      - shotwell
     remove:
       - xfdashboard
       - xfdashboard-themes
@@ -33,6 +32,7 @@ modules:
       - libmousepad0
       - firefox
       - firefox-langpacks
+      - ristretto
 
   - type: script
     snippets:
@@ -56,6 +56,8 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         - org.mozilla.firefox
+        - net.nokyan.Resources
+        - org.localsend.localsend_app
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),

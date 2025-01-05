@@ -23,7 +23,7 @@ modules:
       - plank-docklets
       - xed
       - elementary-xfce-icon-theme
-      - shotwell
+      - fastfetch
     remove:
       - xfdashboard
       - xfdashboard-themes
@@ -58,6 +58,8 @@ modules:
         - org.mozilla.firefox
         - net.nokyan.Resources
         - org.localsend.localsend_app
+        - org.gnome.Shotwell
+        - org.gnome.FileRoller
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),

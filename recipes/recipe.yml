@@ -24,6 +24,8 @@ modules:
       - xed
       - elementary-xfce-icon-theme
       - fastfetch
+      - distrobox
+      - podman
     remove:
       - xfdashboard
       - xfdashboard-themes
@@ -37,6 +39,7 @@ modules:
   - type: script
     snippets:
       - "sed -i 's|Pantheon|XFCE|' /etc/xdg/autostart/plank.desktop"
+      - "chmod a-x /usr/bin/neofetch"
 
   - type: bling
     install:
@@ -60,6 +63,14 @@ modules:
         - org.localsend.localsend_app
         - org.gnome.Shotwell
         - org.gnome.FileRoller
+        - org.videolan.VLC
+        - org.gnome.Mines
+        - org.gnome.Aisleriot
+        - org.gnome.Sudoku
+        - io.github.dvlv.boxbuddyrs
+        - com.github.tchx84.Flatseal
+        - io.github.flattool.Warehouse
+        - com.usebottles.bottles
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),

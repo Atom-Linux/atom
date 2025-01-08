@@ -39,7 +39,6 @@ modules:
   - type: script
     snippets:
       - "sed -i 's|Pantheon|XFCE|' /etc/xdg/autostart/plank.desktop"
-      - "chmod a-x /usr/bin/neofetch"
 
   - type: bling
     install:
